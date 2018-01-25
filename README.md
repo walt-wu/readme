@@ -2,131 +2,130 @@
 小程序分包subPackages目录结构
 =======
 
-
-    ┌─address
-    │  └─pages
-    │      ├─addAddress
-    │      ├─myAddress
-    │      └─searchAddress
-    ├─appointment
-    │  └─pages
-    │      ├─appointmentOrderDetail
-    │      ├─makeAppointment
-    │      └─previewAppointmentOrder
-    ├─balance
-    │  └─pages
-    │      ├─balance
-    │      └─recharge
-    ├─community
-    │  └─pages
-    │      ├─communityDetail
-    │      ├─communityFailpass
-    │      ├─communityNotify
-    │      ├─communityPage
-    │      ├─communityPublish
-    │      ├─communityReply
-    │      ├─communityReport
-    │      └─communityUsercenter
-    ├─coupon
-    │  └─pages
-    │      ├─couponDetail
-    │      ├─couponList
-    │      ├─couponListPage
-    │      └─couponReceiveListPage
-    ├─default
-    │  └─pages
-    │      ├─advanceSearch
-    │      ├─bindCellphone
-    │      ├─extensionPage
-    │      └─mapDetail
-    ├─franchisee
-    │  └─pages
-    │      ├─franchiseeDetail
-    │      ├─franchiseeEnter
-    │      ├─franchiseeEnterStatus
-    │      ├─franchiseeList
-    │      ├─franchiseePerfect
-    │      ├─franchiseeTostore
-    │      ├─franchiseeWaimai
-    │      └─goodsMore
-    ├─goldenEggs
-    │  └─pages
-    │      └─goldenEggs
-    ├─goodsBasic
-    │  └─pages
-    │      ├─goodsAdditionalInfo
-    │      ├─goodsComment
-    │      ├─goodsDetail
-    │      ├─goodsOrderDetail
-    │      ├─goodsOrderPaySuccess
-    │      ├─logisticsPage
-    │      ├─makeComment
-    │      ├─myOrder
-    │      ├─orderDetail
-    │      ├─previewGoodsOrder
-    │      ├─shoppingCart
-    │      └─verificationCodePage
-    ├─groupBuy
-    │  └─pages
-    │      ├─groupCenter
-    │      ├─groupGoodsDetail
-    │      ├─groupOrderDetail
-    │      ├─groupRules
-    │      └─myGroup
-    ├─luckyWheel
-    │  └─pages
-    │      └─luckyWheelDetail
-    ├─news
-    │  └─pages
-    │      ├─newsDetail
-    │      └─newsReply
-    ├─promotion
-    │  └─pages
-    │      ├─promotionApply
-    │      ├─promotionCommission
-    │      ├─promotionGoods
-    │      ├─promotionLeaderPromotion
-    │      ├─promotionMyIdentity
-    │      ├─promotionMyPromotion
-    │      ├─promotionShopSetting
-    │      ├─promotionTeam
-    │      ├─promotionUserCenter
-    │      ├─promotionUserLevel
-    │      ├─promotionWithdraw
-    │      ├─promotionWithdrawOffline
-    │      └─promotionWithdrawRecord
-    ├─scratch
-    │  └─pages
-    │      └─scratch
-    ├─takeout
-    │  └─pages
-    │      ├─previewTakeoutOrder
-    │      ├─takeoutMakeComment
-    │      └─takeoutOrderDetail
-    ├─toStore
-    │  └─pages
-    │      ├─makeTostoreComment
-    │      ├─paySuccess
-    │      ├─previewOrderDetail
-    │      ├─tostoreComment
-    │      ├─toStoreDetail
-    │      └─tostoreOrderDetail
-    ├─transfer
-    │  └─pages
-    │      ├─transferOrderDetail
-    │      ├─transferPage
-    │      └─transferPaySuccess
-    ├─userCenter
-    │  └─pages
-    │      ├─myIntegral
-    │      ├─myMessage
-    │      ├─vipCardList
-    │      └─winningRecord
-    ├─video
-    │  └─pages
-    │      ├─videoAssess
-    │      ├─videoDetail
-    │      └─videoUsercenter
-    └─vipCard
-        └─pages
-            └─vipCard
+        ┌─address                           地址包
+        │  └─pages
+        │      ├─addAddress
+        │      ├─myAddress
+        │      └─searchAddress
+        ├─appointment                       预约包
+        │  └─pages
+        │      ├─appointmentOrderDetail
+        │      ├─makeAppointment
+        │      └─previewAppointmentOrder
+        ├─balance                           储值包
+        │  └─pages
+        │      ├─balance
+        │      └─recharge
+        ├─community                         社区包
+        │  └─pages
+        │      ├─communityDetail
+        │      ├─communityFailpass
+        │      ├─communityNotify
+        │      ├─communityPage
+        │      ├─communityPublish
+        │      ├─communityReply
+        │      ├─communityReport
+        │      └─communityUsercenter
+        ├─coupon                            优惠券
+        │  └─pages
+        │      ├─couponDetail
+        │      ├─couponList
+        │      ├─couponListPage
+        │      └─couponReceiveListPage
+        ├─default                           默认包
+        │  └─pages
+        │      ├─advanceSearch
+        │      ├─bindCellphone
+        │      ├─extensionPage
+        │      └─mapDetail
+        ├─franchisee                        多商家
+        │  └─pages
+        │      ├─franchiseeDetail
+        │      ├─franchiseeEnter
+        │      ├─franchiseeEnterStatus
+        │      ├─franchiseeList
+        │      ├─franchiseePerfect
+        │      ├─franchiseeTostore
+        │      ├─franchiseeWaimai
+        │      └─goodsMore
+        ├─goldenEggs                        砸金蛋
+                │  └─pages
+        │      └─goldenEggs
+        ├─goodsBasic                        电商
+        │  └─pages
+        │      ├─goodsAdditionalInfo
+        │      ├─goodsComment
+        │      ├─goodsDetail
+        │      ├─goodsOrderDetail
+        │      ├─goodsOrderPaySuccess
+        │      ├─logisticsPage
+        │      ├─makeComment
+        │      ├─myOrder
+        │      ├─orderDetail
+        │      ├─previewGoodsOrder
+        │      ├─shoppingCart
+        │      └─verificationCodePage
+        ├─groupBuy                          拼团
+        │  └─pages
+        │      ├─groupCenter
+        │      ├─groupGoodsDetail
+        │      ├─groupOrderDetail
+        │      ├─groupRules
+        │      └─myGroup
+        ├─luckyWheel                        大转盘
+        │  └─pages
+        │      └─luckyWheelDetail
+        ├─news                              资讯
+        │  └─pages
+        │      ├─newsDetail
+        │      └─newsReply
+        ├─promotion                         推广/代言人
+        │  └─pages
+        │      ├─promotionApply
+        │      ├─promotionCommission
+        │      ├─promotionGoods
+        │      ├─promotionLeaderPromotion
+        │      ├─promotionMyIdentity
+        │      ├─promotionMyPromotion
+        │      ├─promotionShopSetting
+        │      ├─promotionTeam
+        │      ├─promotionUserCenter
+        │      ├─promotionUserLevel
+        │      ├─promotionWithdraw
+        │      ├─promotionWithdrawOffline
+        │      └─promotionWithdrawRecord
+        ├─scratch                           刮刮卡
+        │  └─pages
+        │      └─scratch    
+        ├─takeout                           外卖
+        │  └─pages
+        │      ├─previewTakeoutOrder
+        │      ├─takeoutMakeComment
+        │      └─takeoutOrderDetail
+        ├─toStore                           到店
+        │  └─pages
+        │      ├─makeTostoreComment
+        │      ├─paySuccess
+        │      ├─previewOrderDetail
+        │      ├─tostoreComment
+        │      ├─toStoreDetail
+        │      └─tostoreOrderDetail
+        ├─transfer                          当面付
+        │  └─pages
+        │      ├─transferOrderDetail
+        │      ├─transferPage
+        │      └─transferPaySuccess
+        ├─userCenter                        个人中心
+        │  └─pages
+        │      ├─myIntegral
+        │      ├─myMessage
+        │      ├─vipCardList
+        │      └─winningRecord
+        ├─video                             视频
+        │  └─pages
+        │      ├─videoAssess
+        │      ├─videoDetail
+        │      └─videoUsercenter
+        └─vipCard                           会员卡
+            └─pages
+                └─vipCard
